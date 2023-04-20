@@ -1,7 +1,11 @@
 # ProtoFSM
+
 Tools for parsing and manipulating regular expressions, a simple finite state machine library for C++, designed for optimal performance and zero-copy. It allows programmers to free input string object and regular experssions, match them and callback functions do things they want.
 
+Programmers can give a series of parsed `Network Packet` to an `Automation`. If all packets match the `Automation`, `Action` pre-defined will be exectued.
+
 ProtoFSM benefits from the C++11 template metaprogramming features, it can have variable inputs what users want.
+
 ## License
 ProtoFSM is [Open Source] software. It may be used for any purpose,
 including commercial purposes, at absolutely no cost. It is
